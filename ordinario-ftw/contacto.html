@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Biblioteca Universitaria</title>
+  <link rel="stylesheet" href="Diseño de Pagina.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Biblioteca Universitaria</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="lenguas.html">Lenguas</a></li>
+        <li><a href="matematicas.html">Matemáticas</a></li>
+        <li><a href="ciencias.html">Ciencias</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="tecnologia.html">Tecnología</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main class="contenido">
+  <h2>Contacto</h2>
+  <p>¿Tienes dudas o sugerencias? Escríbenos:</p>
+
+  <form onsubmit="enviarFormulario(event)">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="respuesta"></p>
+</main>
+
+
+  <footer>
+    <p>&copy; 2026 Biblioteca Universitaria</p>
+  </footer>
+</body>
