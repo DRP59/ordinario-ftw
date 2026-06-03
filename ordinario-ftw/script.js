@@ -14,5 +14,5 @@ function enviarFormulario(e) {
   e.preventDefault();
   const nombre = document.getElementById("nombre").value;
   document.getElementById("respuesta").textContent =
-    `Gracias, ${nombre}. Tu mensaje ha sido enviado.`;
+    `Gracias, ${nombre}. Tu mensaje ha sido enviado a nuestro buzón.`;
 }

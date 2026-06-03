@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotecaUniversitaria>
+  <informacion>
+    <titulo>Biblioteca Universitaria</titulo>
+    <descripcion>
+      Portal académico con recursos básicos para estudiantes universitarios:
+      lenguas, matemáticas, ciencias, historia y tecnología.
+    </descripcion>
+    <autor>Equipo de desarrollo académico</autor>
+    <anio>2026</anio>
+  </informacion>
+
+  <secciones>
+    <seccion id="inicio">
+      <nombre>Inicio</nombre>
+      <url>index.html</url>
+      <descripcion>Página principal con bienvenida y acceso rápido a recursos.</descripcion>
+    </seccion>
+
+    <seccion id="lenguas">
+      <nombre>Lenguas</nombre>
+      <url>lenguas.html</url>
+      <recursos>
+        <recurso nombre="Gramática del Español" enlace="https://www.rae.es"/>
+        <recurso nombre="Inglés Básico" enlace="https://www.duolingo.com"/>
+        <recurso nombre="Francés para principiantes" enlace="https://www.busuu.com"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="matematicas">
+      <nombre>Matemáticas</nombre>
+      <url>matematicas.html</url>
+      <recursos>
+        <recurso nombre="Álgebra Básica" enlace="https://www.khanacademy.org/math/algebra"/>
+        <recurso nombre="Cálculo Diferencial" enlace="https://tutorial.math.lamar.edu/"/>
+        <recurso nombre="Geometría Analítica" enlace="https://www.geogebra.org/"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="ciencias">
+      <nombre>Ciencias</nombre>
+      <url>ciencias.html</url>
+      <recursos>
+        <recurso nombre="Biología" enlace="https://www.nature.com"/>
+        <recurso nombre="Física" enlace="https://physics.info"/>
+        <recurso nombre="Química" enlace="https://chemguide.co.uk"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="historia">
+      <nombre>Historia</nombre>
+      <url>historia.html</url>
+      <recursos>
+        <recurso nombre="Historia Universal" enlace="https://www.worldhistory.org"/>
+        <recurso nombre="Historia de América" enlace="https://www.loc.gov"/>
+        <recurso nombre="Historia de Europa" enlace="https://europeana.eu"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="tecnologia">
+      <nombre>Tecnología</nombre>
+      <url>tecnologia.html</url>
+      <recursos>
+        <recurso nombre="Programación" enlace="https://www.w3schools.com"/>
+        <recurso nombre="Computación" enlace="https://ocw.mit.edu"/>
+        <recurso nombre="Inteligencia Artificial" enlace="https://www.coursera.org"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="acerca">
+      <nombre>Acerca de</nombre>
+      <url>acerca.html</url>
+      <descripcion>Información sobre el propósito y objetivos de la biblioteca.</descripcion>
+    </seccion>
+
+    <seccion id="contacto">
+      <nombre>Contacto</nombre>
+      <url>contacto.html</url>
+      <descripcion>Formulario para enviar dudas o sugerencias.</descripcion>
+    </seccion>
+  </secciones>
+</bibliotecaUniversitaria>

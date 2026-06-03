@@ -1,8 +1,8 @@
-/* ====== ESTILOS GENERALES ====== */
+/* Estilo General */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #fdf6e3; /* beige cálido */
+  background: #e6e3d9; 
   color: #3b2f2f;
 }
 
@@ -10,15 +10,15 @@ h1, h2, h3 {
   margin: 0;
 }
 
-/* ====== HEADER ====== */
+/* Header y menus */
 header {
-  background: #d97b66; /* terracota */
-  color: white;
+  background: #d97b66; 
+  color: black;
   padding: 20px;
   text-align: center;
 }
 
-nav .menu {
+nav, .menu {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -27,24 +27,24 @@ nav .menu {
   margin: 10px 0 0;
 }
 
-nav a {
-  color: white;
+nav, a, ul {
+  color: black ;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
-  color: #f4c542; /* dorado */
+nav, a:hover, .menu a:hover {
+  color: #f4c542; 
 }
 
-/* ====== CONTENIDO ====== */
+/* Contenido */
 .contenido {
   padding: 20px;
   max-width: 1100px;
   margin: auto;
 }
 
-/* ====== TARJETAS ====== */
+/* Tarjetas */
 .tarjeta {
   background: #fff8e7;
   padding: 15px;
@@ -58,14 +58,14 @@ nav a:hover {
   transform: scale(1.02);
 }
 
-/* ====== GRID ====== */
+/* Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 15px;
 }
 
-/* ====== FORMULARIOS ====== */
+/* Formulario */
 form {
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ form {
 input, textarea {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #aaa;
+  border: 1px solid black;
 }
 
 button {
@@ -89,13 +89,13 @@ button {
 
 button:hover {
   background: #d97b66;
-  color: white;
+  color: black;
 }
 
-/* ====== FOOTER ====== */
+/* Footer */
 footer {
   background: #d97b66;
-  color: white;
+  color: black;
   text-align: center;
   padding: 15px;
   margin-top: 30px;
