@@ -3,7 +3,7 @@
   <informacion>
     <titulo>Biblioteca Universitaria</titulo>
     <descripcion>
-      Portal académico con recursos básicos para estudiantes universitarios:
+      Portal académico con recursos básicos para estudiantes universitarios de areas como:
       lenguas, matemáticas, ciencias, historia y tecnología.
     </descripcion>
     <autor>Equipo de desarrollo académico</autor>
@@ -19,19 +19,23 @@
 
     <seccion id="lenguas">
       <nombre>Lenguas</nombre>
-      <url>lenguas.html</url>
+      <url>Area de Lenguas.html</url>
       <recursos>
-        <recurso nombre="Gramática del Español" enlace="https://www.rae.es"/>
-        <recurso nombre="Inglés Básico" enlace="https://www.duolingo.com"/>
-        <recurso nombre="Francés para principiantes" enlace="https://www.busuu.com"/>
+      <recurso nombre="Gramática del Español" enlace="https://www.rae.es/"/>
+      <recurso nombre="esolcourses" enlace="https://www.esolcourses.com/"/>
+      <recurso nombre="FrenchTutorial" enlace="http://www.frenchtutorial.com/" />
+      <recurso nombre="German Resources (Google Docs)" enlace="https://docs.google.com/document/d/1J5PJK0qStw2DHQHdRHuKIfq_bJrZkFarQVT7fkz13tg/edit#heading=h.biavq1413l4t" />
+      <recurso nombre="Lingüística" enlace="https://www.linguisticsociety.org/"/>
+      <recurso nombre="Stanford Encyclopedia of Philosophy" enlace="https://plato.stanford.edu/entries/linguistics/" />
+    </article>
       </recursos>
     </seccion>
 
     <seccion id="matematicas">
       <nombre>Matemáticas</nombre>
-      <url>matematicas.html</url>
+      <url>Area de Matematicas.html</url>
       <recursos>
-        <recurso nombre="Álgebra Básica" enlace="https://www.khanacademy.org/math/algebra"/>
+        <recurso nombre="Álgebra Básica" enlace="https://algebrica.org/"/>
         <recurso nombre="Cálculo Diferencial" enlace="https://tutorial.math.lamar.edu/"/>
         <recurso nombre="Geometría Analítica" enlace="https://www.geogebra.org/"/>
       </recursos>
@@ -39,7 +43,7 @@
 
     <seccion id="ciencias">
       <nombre>Ciencias</nombre>
-      <url>ciencias.html</url>
+      <url>Area de Ciencias.html</url>
       <recursos>
         <recurso nombre="Biología" enlace="https://www.nature.com"/>
         <recurso nombre="Física" enlace="https://physics.info"/>
@@ -49,7 +53,7 @@
 
     <seccion id="historia">
       <nombre>Historia</nombre>
-      <url>historia.html</url>
+      <url>Area de Historia.html</url>
       <recursos>
         <recurso nombre="Historia Universal" enlace="https://www.worldhistory.org"/>
         <recurso nombre="Historia de América" enlace="https://www.loc.gov"/>
@@ -59,7 +63,7 @@
 
     <seccion id="tecnologia">
       <nombre>Tecnología</nombre>
-      <url>tecnologia.html</url>
+      <url>Area de Tecnologias.html</url>
       <recursos>
         <recurso nombre="Programación" enlace="https://www.w3schools.com"/>
         <recurso nombre="Computación" enlace="https://ocw.mit.edu"/>
@@ -67,15 +71,9 @@
       </recursos>
     </seccion>
 
-    <seccion id="acerca">
-      <nombre>Acerca de</nombre>
-      <url>acerca.html</url>
-      <descripcion>Información sobre el propósito y objetivos de la biblioteca.</descripcion>
-    </seccion>
-
     <seccion id="contacto">
       <nombre>Contacto</nombre>
-      <url>contacto.html</url>
+      <url>Contactanos.html</url>
       <descripcion>Formulario para enviar dudas o sugerencias.</descripcion>
     </seccion>
   </secciones>

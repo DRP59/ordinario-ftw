@@ -2,13 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Biblioteca Universitaria</title>
+  <title>Segunda Gran Biblioteca</title>
   <link rel="stylesheet" href="Diseño de Pagina.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header>
-    <h1>Biblioteca Universitaria</h1>
+    <h1>Segunda Gran Biblioteca</h1>
     <nav>
       <ul class="menu">
         <li><a href="index.html">Inicio</a></li>
@@ -17,17 +17,15 @@
         <li><a href="Area de Ciencias.html">Ciencias</a></li>
         <li><a href="Area de Historia.html">Historia</a></li>
         <li><a href="Area de Tecnologias.html">Tecnologias</a></li>
+        <li><a href="Artes.html">Artes</a></li>
         <li><a href="Recomendaciones Basicas.html">Recomendaciones</a></li>
-        <li><a href="Acerca de.html">Acerca de</a></li>
         <li><a href="Contactanos.html">Contactanos</a></li>
       </ul>
     </nav>
   </header>
 
 <main class="contenido">
-  <h2>Contacto</h2>
-  <p>Dudas? Sugerencias? Envianos un mensaje y haznos saber tu opinion! </p>
-
+  <h2>Deseas contactarnos? Ingresa tus datos en el siguiente formulario:</h2>
   <form onsubmit="enviarFormulario(event)">
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" required>
@@ -38,14 +36,18 @@
     <label for="mensaje">Mensaje:</label>
     <textarea id="mensaje" required></textarea>
 
+    <label>Cual es tu Nivel académico?</label>
+    <input type="radio" name="nivel" value="Licenciatura"> Licenciatura
+    <input type="radio" name="nivel" value="Maestría"> Maestría
+
+    <label>¿Deseas recibir actualizaciones?</label>
+    <input type="checkbox" id="boletin"> Si
+
     <button type="submit">Enviar</button>
   </form>
-
   <p id="respuesta"></p>
 </main>
 
-
   <footer>
-    <p>&copy; 2026 Biblioteca Universitaria</p>
+    <p>&copy; 2026 La Segunda Gran Biblioteca</p>
   </footer>
-</body>
