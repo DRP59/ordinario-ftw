@@ -2,58 +2,54 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>La Segunda Gran Biblioteca</title>
-  <link rel="stylesheet" href="Diseño de Pagina.css">
+  <link rel="stylesheet" href="Diseño_de_pagina.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header>
     <h1>La Segunda Gran Biblioteca</h1>
-    <nav>
+    <nav aria-label="Navegación principal">
       <ul class="menu">
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="Area de Lenguas.html">Lenguas</a></li>
-        <li><a href="Area de Matemáticas.html">Matemáticas</a></li>
-        <li><a href="Area de Ciencias.html">Ciencias</a></li>
-        <li><a href="Area de Historia.html">Historia</a></li>
-        <li><a href="Area de Tecnologias.html">Tecnología</a></li>
+        <li><a href="Area_de_Lenguas.html">Lenguas</a></li>
+        <li><a href="Area_de_Matematicas.html">Matemáticas</a></li>
+        <li><a href="Area_de_Ciencias.html">Ciencias</a></li>
+        <li><a href="Area_de_Historia.html">Historia</a></li>
+        <li><a href="Area_de_Tecnologias.html">Tecnología</a></li>
         <li><a href="Artes.html">Artes</a></li>
-        <li><a href="Recomendaciones Basicas.html">Recomendaciones</a></li>
-        <li><a href="Contactanos.html">Contactanos</a></li>
+        <li><a href="Recomendaciones_Basicas.html">Recomendaciones</a></li>
+        <li><a href="Contactanos.html">Contáctanos</a></li>
       </ul>
     </nav>
   </header>
 
+  <main class="contenido">
+    <section>
+      <h2>Buscador</h2>
+      <input aria-label="Buscar recurso" type="text" id="busqueda" placeholder="Buscar recurso..." onkeyup="buscarRecurso()">
+    </section>
+    <section id="recursos" class="grid">
+    </section>
 
-  <section>
-    <h2>Buscador</h2>
-    <input type="text" id="busqueda" placeholder="Buscar recurso..." onkeyup="buscarRecurso()">
-  </section>
-  <section id="recursos" class="grid">
-  </section>
-</main>
+    <section>
+      <h1>Bienvenido</h1>
+      <p>Explora recursos académicos de fuentes confiables open source de distintas áreas útiles para tu proceso de aprendizaje universitario.</p>
+    </section>
 
-    <main class="contenido">
-   <main class="contenido">
-  <section>
-    <h1>Bienvenido</h1>
-    <p>Explora recursos académicos de fuentes confiables open source de distintas áreas utiles para tu proceso de aprendizaje universitario.</p>
-  </section>
-
-  <section class="tarjeta">
-    <h2>Acerca de la Biblioteca</h2>
-    <p>
-      Esta página fue creada para apoyar a estudiantes universitarios en sus estudios básicos.
-      Aquí encontrarás enlaces a recursos confiables, verificados y seguros de areas como lenguas, matemáticas, ciencias, historia y tecnología.
-      Ademas de una seleccion de recomendaciones generales para facilitar tu aprendizaje.
-    </p>
-  </section>
-</main>
-
+    <section class="tarjeta">
+      <h2>Acerca de la Biblioteca</h2>
+      <p>
+        Esta página fue creada para apoyar a estudiantes universitarios en sus estudios básicos.
+        Aquí encontrarás enlaces a recursos confiables, verificados y seguros de áreas como lenguas, matemáticas, ciencias, historia y tecnología.
+        Además de una selección de recomendaciones generales para facilitar tu aprendizaje.
+      </p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2026 La Segunda Gran Biblioteca</p>
   </footer>
 </body>
 </html>
-
