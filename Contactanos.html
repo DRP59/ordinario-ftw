@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Segunda Gran Biblioteca</title>
+  <link rel="stylesheet" href="Diseño_de_pagina.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>La Segunda Gran Biblioteca</h1>
+    <nav aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Area_de_Lenguas.html">Lenguas</a></li>
+        <li><a href="Area_de_Matematicas.html">Matemáticas</a></li>
+        <li><a href="Area_de_Ciencias.html">Ciencias</a></li>
+        <li><a href="Area_de_Historia.html">Historia</a></li>
+        <li><a href="Area_de_Tecnologias.html">Tecnología</a></li>
+        <li><a href="Artes.html">Artes</a></li>
+        <li><a href="Recomendaciones_Basicas.html">Recomendaciones</a></li>
+        <li><a href="Contactanos.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenido">
+    <h2>¿Deseas contactarnos? Ingresa tus datos en el siguiente formulario:</h2>
+    <form onsubmit="enviarFormulario(event)">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" required></textarea>
+
+      <label>¿Cuál es tu nivel académico?</label>
+      <div>
+        <input type="radio" name="nivel" id="lic" value="Licenciatura">
+        <label for="lic">Licenciatura</label>
+        <input type="radio" name="nivel" id="mae" value="Maestría">
+        <label for="mae">Maestría</label>
+      </div>
+
+      <div>
+        <label>¿Deseas recibir actualizaciones?</label>
+        <input type="checkbox" id="boletin">
+        <label for="boletin">Sí</label>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="respuesta"></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 La Segunda Gran Biblioteca</p>
+  </footer>
+</body>
+</html>

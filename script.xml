@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotecaUniversitaria>
+  <informacion>
+    <titulo>Biblioteca Universitaria</titulo>
+    <descripcion>
+      Portal académico con recursos básicos para estudiantes universitarios de areas como:
+      lenguas, matemáticas, ciencias, historia y tecnología.
+    </descripcion>
+    <autor>Equipo de desarrollo académico</autor>
+    <anio>2026</anio>
+  </informacion>
+
+  <secciones>
+    <seccion id="inicio">
+      <nombre>Inicio</nombre>
+      <url>index.html</url>
+      <descripcion>Página principal con bienvenida y acceso rápido a recursos.</descripcion>
+    </seccion>
+
+    <seccion id="lenguas">
+      <nombre>Lenguas</nombre>
+      <url>Area_de_Lenguas.html</url>
+      <recursos>
+        <recurso nombre="Gramática del Español" enlace="https://www.rae.es/"/>
+        <recurso nombre="Inglés" enlace="https://www.esolcourses.com/"/>
+        <recurso nombre="Francés" enlace="http://www.frenchtutorial.com/"/>
+        <recurso nombre="Alemán" enlace="https://docs.google.com/document/d/1J5PJK0qStw2DHQHdRHuKIfq_bJrZkFarQVT7fkz13tg/edit#heading=h.biavq1413l4t"/>
+        <recurso nombre="Lingüística" enlace="https://plato.stanford.edu/entries/linguistics/"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="matematicas">
+      <nombre>Matemáticas</nombre>
+      <url>Area_de_Matematicas.html</url>
+      <recursos>
+        <recurso nombre="Álgebra" enlace="https://algebrica.org/"/>
+        <recurso nombre="Cálculo" enlace="https://calculusmadeeasy.org/"/>
+        <recurso nombre="Geometría Analítica" enlace="https://www.geogebra.org/"/>
+        <recurso nombre="Estadística" enlace="https://stattrek.com/"/>
+        <recurso nombre="Trigonometría" enlace="https://www.mathsisfun.com/trigonometry.html"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="ciencias">
+      <nombre>Ciencias</nombre>
+      <url>Area_de_Ciencias.html</url>
+      <recursos>
+        <recurso nombre="Biología" enlace="https://bio.libretexts.org/Bookshelves"/>
+        <recurso nombre="Física" enlace="https://ncatlab.org/nlab/show/higher+category+theory+and+physics"/>
+        <recurso nombre="Química" enlace="https://chem.libretexts.org/"/>
+        <recurso nombre="Astronomía" enlace="https://er-cryptid.tumblr.com/post/176809097526/free-astronomy-resources"/>
+        <recurso nombre="Medicina" enlace="https://med.libretexts.org/Bookshelves"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="historia">
+      <nombre>Historia</nombre>
+      <url>Area_de_Historia.html</url>
+      <recursos>
+        <recurso nombre="Historia Universal" enlace="https://www.worldhistory.org/"/>
+        <recurso nombre="Historia de América" enlace="https://www.loc.gov"/>
+        <recurso nombre="Historia de Europa" enlace="https://europeana.eu"/>
+        <recurso nombre="Historia de México" enlace="https://h-mexico.unam.mx/"/>
+        <recurso nombre="Historia de Asia" enlace="https://smarthistory.org/"/>
+        <recurso nombre="Testimonios Históricos" enlace="http://www.eyewitnesstohistory.com/index.html"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="tecnologia">
+      <nombre>Tecnología</nombre>
+      <url>Area_de_Tecnologias.html</url>
+      <recursos>
+        <recurso nombre="Programación" enlace="https://www.w3schools.com/"/>
+        <recurso nombre="Computación" enlace="https://ocw.mit.edu/"/>
+        <recurso nombre="Desarrollo de Videojuegos" enlace="https://www.webgamedev.com/"/>
+        <recurso nombre="Cyberseguridad" enlace="https://www.netacad.com/"/>
+        <recurso nombre="Desarrollo Web" enlace="https://developer.mozilla.org/"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="artes">
+      <nombre>Artes</nombre>
+      <url>Artes.html</url>
+      <recursos>
+        <recurso nombre="Cocina" enlace="https://www.cookwell.com/"/>
+        <recurso nombre="Dibujo" enlace="https://online-courses.club/"/>
+        <recurso nombre="Literatura" enlace="https://liber3.eth.limo/"/>
+        <recurso nombre="Fotografía" enlace="https://www.photographycourse.net/"/>
+        <recurso nombre="Música" enlace="https://human.libretexts.org/Bookshelves/Music"/>
+      </recursos>
+    </seccion>
+
+    <seccion id="recomendaciones">
+      <nombre>Recomendaciones</nombre>
+      <url>Recomendaciones_Basicas.html</url>
+    </seccion>
+
+    <seccion id="contacto">
+      <nombre>Contacto</nombre>
+      <url>Contactanos.html</url>
+      <descripcion>Formulario para enviar dudas o sugerencias.</descripcion>
+    </seccion>
+  </secciones>
+</bibliotecaUniversitaria>
