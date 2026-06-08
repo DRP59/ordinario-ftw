@@ -17,3 +17,4 @@ prompts Utilizados:
 
 "Como compilo la pagina para que esta sea accesible desde el URL de un archivo README? Explicame el proceso paso a paso"
 
+Link de Video de Youtube: https://youtu.be/4p16D8yIW2A
